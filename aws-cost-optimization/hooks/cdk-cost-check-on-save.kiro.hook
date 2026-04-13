@@ -6,9 +6,12 @@
   "when": {
     "type": "fileEdited",
     "patterns": [
-      "**/*.ts",
-      "**/*.py",
-      "**/*.java"
+      "lib/**/*.ts",
+      "stacks/**/*.ts",
+      "lib/**/*.py",
+      "stacks/**/*.py",
+      "lib/**/*.java",
+      "stacks/**/*.java"
     ]
   },
   "then": {
